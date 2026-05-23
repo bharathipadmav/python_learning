@@ -59,7 +59,6 @@ def build_management_tree():
 
     return management_tree
 
-
 if __name__ == '__main__':
     root_node = build_management_tree()
     root_node.print_tree("name") # prints only name hierarchy
