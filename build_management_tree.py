@@ -37,7 +37,7 @@ class TreeNode:
     def add_child(self, child):
         child.parent = self
         self.children.append(child)
-
+'''Build management tree'''
 def build_management_tree():
     management_tree = TreeNode("Nilpul","CEO")
 
