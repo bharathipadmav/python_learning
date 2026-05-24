@@ -18,6 +18,7 @@ class TreeNode:
 
         return level
 
+    '''Prints tree node with name and designation'''
     def print_tree(self, type, level=3):
         if self.get_level() > level:
             return
