@@ -5,6 +5,10 @@ class TreeNode:
         self.children = []
         self.parent = None
 
+    '''
+    Returns level of the tree node
+    
+    '''
     def get_level(self):
         level = 0
         p = self.parent
