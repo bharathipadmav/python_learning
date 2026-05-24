@@ -18,7 +18,8 @@ class TreeNode:
 
         return level
 
-    def print_tree(self, type, level=3):
+    def print_tree(self, type, level=3)
+
         if self.get_level() > level:
             return
         spaces = ' ' * self.get_level() * 3
