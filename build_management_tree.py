@@ -34,6 +34,7 @@ class TreeNode:
             for child in self.children:
                 child.print_tree(type, level)
 
+    '''Adds child node to tree'''
     def add_child(self, child):
         child.parent = self
         self.children.append(child)
