@@ -18,6 +18,7 @@ class TreeNode:
 
         return level
 
+    '''Prints the tree nodes in heirarchal representation'''
     def print_tree(self, type, level=3):
         if self.get_level() > level:
             return
