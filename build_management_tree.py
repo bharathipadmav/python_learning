@@ -18,8 +18,7 @@ class TreeNode:
 
         return level
 
-    def print_tree(self, type, level=3)
-
+    def print_tree(self, type, level=3):
         if self.get_level() > level:
             return
         spaces = ' ' * self.get_level() * 3
@@ -34,7 +33,6 @@ class TreeNode:
             for child in self.children:
                 child.print_tree(type, level)
 
-    '''Adds child node to tree'''
     def add_child(self, child):
         child.parent = self
         self.children.append(child)
